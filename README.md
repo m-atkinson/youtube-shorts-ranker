@@ -26,19 +26,32 @@ I used Dwarkesh Patel's channel (not my client) for sample data (https://www.you
     * NDCG@5: 0.95
 
 ## Quick Start
-- Install dependencies `pip install -r requirements.txt`
+
+### Prerequisites
+- Python 3.10 or higher
+- YouTube Data API v3 key
+- Gemini API key
+- Target YouTube channel ID
+- ffmpeg (required by Whisper for audio processing)
+- Install dependencies `requirements.txt`
+
+### Pipeline
 - Setup database `python scripts/setup_database.py`
 - Add your channel id to `config/data_pipeline.yaml` 
 - Add your Gemini (for embedding) and YouTube (for metadata and video download) API keys to your `.env`
 - Download and process training data `python scripts/run_data_pipeline.py --max-videos 50`
+
+### Training
 - Delete downloaded videos `rm -rf data/raw/shorts_videos`
 - Train model `python scripts/train_model.py --config config/training_gemini.yaml --run-name dp-150`
+
+### Inference
 - Run inference `python scripts/predict_segments.py --input data/inference/inputs/ilya-sutskever.txt --model runs/dp-150/model.pkl --output data/inference/outputs/dp-150-predictions.json --segmentation-method sentence --target-duration 60 --embedding-model models/text-embedding-004` 
 
 ## Project Structure
 
 ```
-youtube-shorts-predictor/
+youtube-shorts-ranker/
 ├── config/                 # Config files
 │   ├── data_pipeline.yaml  # Pipeline configuration
 │   └── training_gemini.yaml# Training configuration
