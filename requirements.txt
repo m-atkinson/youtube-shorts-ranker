@@ -1,0 +1,46 @@
+# YouTube Data Collection
+yt-dlp>=2023.11.0
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+
+# Transcription
+openai-whisper>=20231117
+ffmpeg-python>=0.2.0
+
+# Machine Learning & Embeddings
+sentence-transformers>=2.2.2
+torch>=2.0.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.1.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Experiment Tracking
+mlflow>=2.8.0
+
+# Document Processing
+python-docx>=1.1.0
+PyPDF2>=3.0.0
+
+# Configuration & CLI
+pydantic>=2.4.0
+pydantic-settings>=2.0.0
+PyYAML>=6.0.1
+click>=8.1.0
+
+# Utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.10.0
+flake8>=6.1.0
+mypy>=1.6.0

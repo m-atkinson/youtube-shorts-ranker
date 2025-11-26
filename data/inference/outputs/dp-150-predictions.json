@@ -1,0 +1,67 @@
+{
+  "input_file": "data/inference/inputs/ilya-sutskever.txt",
+  "model_path": "runs/dp-150/model.pkl",
+  "parameters": {
+    "segmentation_method": "sentence",
+    "step_size": null,
+    "target_duration": 60,
+    "overlap_threshold": 0.2
+  },
+  "top_segments": [
+    {
+      "text": "11:08\nI remember reading about this case. One way in which neuroscientists can  \n11:19\nlearn about the brain is by studying people with  brain damage to different parts of the brain. 11:26\nSome people have the most strange symptoms  you could imagine. It's actually really,   really interesting. One case that  comes to mind that's relevant. 11:35\nI read about this person who had some kind  of brain damage, a stroke or an accident,  \n11:44\nthat took out his emotional processing. So he stopped feeling any emotion. 11:54\nHe still remained very articulate  and he could solve little puzzles,   and on tests he seemed to be just fine. But he felt no emotion. He didn't feel sad,  \n12:03\nhe didn't feel anger, he didn't feel animated. He became somehow extremely bad at making any  \n12:10\ndecisions at all. It would take him   hours to decide on which socks to wear. He would make very bad financial decisions.",
+      "start_word_idx": -1,
+      "end_word_idx": -1,
+      "estimated_duration": 62,
+      "sentence_start_idx": 115,
+      "sentence_end_idx": 128,
+      "score": 12.055546760559082,
+      "original_index": 115,
+      "rank": 1
+    },
+    {
+      "text": "\"Stalls out\" here meaning they earn no more  than low hundreds of billions in revenue? 1:22:44\nHow do you think about what stalling out means? I think stalling out will look like\u2026it will  \n1:22:57\nall look very similar among  all the different companies. It could be something like this. I'm not sure because I think  \n1:23:05\neven with stalling out, I think these  companies could make a stupendous revenue. Maybe not profits because they will need  to work hard to differentiate each other  \n1:23:15\nfrom themselves, but revenue definitely. But something in your model implies that  \n1:23:23\nwhen the correct solution does emerge, there  will be convergence between all the companies. I'm curious why you think that's the case. I was talking more about convergence  \n1:23:31\non their alignment strategies. I think eventual convergence on   the technical approach is probably going  to happen as well, but I was alluding  \n1:23:38\nto convergence to the alignment strategies.",
+      "start_word_idx": -1,
+      "end_word_idx": -1,
+      "estimated_duration": 62,
+      "sentence_start_idx": 729,
+      "sentence_end_idx": 739,
+      "score": 11.981843948364258,
+      "original_index": 729,
+      "rank": 2
+    },
+    {
+      "text": "53:13\nBut the idea of very rapid  economic growth for some time,  \n53:19\nI think it\u2019s very possible from broad deployment. The question is how rapid it's going to be. 53:25\nI think this is hard to know because on the  one hand you have this very efficient worker. 53:30\nOn the other hand, the world is just  really big and there's a lot of stuff,  \n53:36\nand that stuff moves at a different speed. But then on the other hand, now the AI could\u2026  \n53:41\nSo I think very rapid economic growth is possible. We will see all kinds of things like different  \n53:47\ncountries with different rules and the  ones which have the friendlier rules, the   economic growth will be faster. Hard to predict. It seems to me that this is a very precarious  \nAlignment\n55:10\nsituation to be in. In the limit,   we know that this should be possible.",
+      "start_word_idx": -1,
+      "end_word_idx": -1,
+      "estimated_duration": 60,
+      "sentence_start_idx": 475,
+      "sentence_end_idx": 484,
+      "score": 11.94119930267334,
+      "original_index": 475,
+      "rank": 3
+    },
+    {
+      "text": "So if this is achieved  \n1:08:23\nby the first N of those systems, then I can  see it go well, at least for quite some time. 1:08:32\nThen there is the question of  what happens in the long run. How do you achieve a long-run equilibrium? I think that there, there is an answer as well. 1:08:44\nI don't like this answer, but  it needs to be considered. 1:08:51\nIn the long run, you might say, \"Okay, if  you have a world where powerful AIs exist,  \n1:08:57\nin the short term, you could say  you have universal high income. You have universal high income  and we're all doing well.\" \n1:09:04\nBut what do the Buddhists say? \"Change is the  only constant.\" Things change. There is some  \n1:09:11\nkind of government, political structure thing, and  it changes because these things have a shelf life. 1:09:18\nSome new government thing comes up and  it functions, and then after some time   it stops functioning.",
+      "start_word_idx": -1,
+      "end_word_idx": -1,
+      "estimated_duration": 64,
+      "sentence_start_idx": 613,
+      "sentence_end_idx": 623,
+      "score": 11.929577827453613,
+      "original_index": 613,
+      "rank": 4
+    },
+    {
+      "text": "The government has been designed  \n1:06:03\nto be a never-ending fight between  three parts, which has an effect. 1:06:08\nSo I think things like this. Another thing that makes this discussion   difficult is that we are talking about systems  that don't exist, that we don't know how to build. 1:06:19\nThat\u2019s the other thing and  that\u2019s actually my belief. I think what people are doing right now  will go some distance and then peter out. 1:06:26\nIt will continue to improve,  but it will also not be \"it\". The \"It\" we don't know how to build, and  a lot hinges on understanding reliable  \n1:06:38\ngeneralization. I\u2019ll say another thing. One of the things that you could say about  \n1:06:47\nwhat causes alignment to be difficult is that  your ability to learn human values is fragile. 1:06:55\nThen your ability to optimize them is fragile. You actually learn to optimize them.",
+      "start_word_idx": -1,
+      "end_word_idx": -1,
+      "estimated_duration": 60,
+      "sentence_start_idx": 584,
+      "sentence_end_idx": 595,
+      "score": 11.837961196899414,
+      "original_index": 584,
+      "rank": 5
+    }
+  ]
+}

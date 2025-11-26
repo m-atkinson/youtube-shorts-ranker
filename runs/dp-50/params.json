@@ -1,0 +1,7 @@
+{
+  "train_size": 42,
+  "embedding_dim": 768,
+  "n_folds": 5,
+  "strategy": "cross_validation_final_fit",
+  "test_size": 8
+}

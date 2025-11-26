@@ -1,0 +1,36 @@
+# YouTube Shorts Predictor - Data Pipeline Configuration
+
+# Your target YouTube channel ID
+# You can find this in the channel URL or using: https://www.youtube.com/account_advanced
+youtube:
+  channel_id: "UCXl4i9dYBrFOabk0xGmbkRA"
+
+  # Maximum results per API call (YouTube API limit is 50)
+  max_results: 50
+
+  # Maximum video duration in seconds to consider as a Short
+  max_duration_seconds: 180
+
+
+
+# Directory Configuration
+data_dir: "data"
+raw_dir: "data/raw"
+processed_dir: "data/processed"
+database_path: "data/database/shorts_data.db"
+
+# Video Download Settings
+video_format: "mp4"
+audio_format: "mp3"
+
+# Transcription Settings
+# Whisper model options: tiny, base, small, medium, large, large-v2, large-v3
+# Larger models are more accurate but slower and require more memory
+whisper_model: "base"
+transcription_language: "en"
+
+# Processing Settings
+batch_size: 10
+max_workers: 4
+retry_attempts: 3
+retry_delay: 1.0  # Initial retry delay in seconds (exponential backoff)
